@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:montserrat;
+   
+    
+    /* animation-name: chiku;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes chiku{
+    0%{background:red; left: 100px;top: 0px;}
+    10%{background:navajowhite;left: 200px; top: 0px; }
+    20%{background:black;left: 200px; top: 100px; ;}
+    30%{background:blue;left: 200px; top: 100px; }
+    40%{background:green;left: 200px; top: 100px; }
+    50%{background: pink;left: 200px; top: 100px; }
+    60%{background:yellow;left: 200px; top: 100px; }
+    70%{background:gold;left: 200px; top: 100px; }
+    80%{background:yellowgreen;left: 200px; top: 100px; }
+     90%{background:whitesmoke;left: 200px; top: 100px; }
+     100%{background:purple;left: 100px; top: 0px; }
+} */
+nav{
+    background-image: url(first.jpg);
+    height:100px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+
+nav ul li a{
+   color: aquamarine;
+   font-size: 17px;
+   padding: 7px 13px;
+   border-radius: 3px;
+}
+a.active, a:hover{
+    background:blueviolet ;
+    transition: 5s;
+}
+.image{
+    text-align: center;
+    line-height: 300px;
+}
+.first{
+    text-align: center;
+    background-color: azure;
+}
+.second{
+  text-align: center;
+    background-color: beige;
+}
+footer{
+    background-color: rgb(250, 224, 215);
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    outline-style: none;
+}
